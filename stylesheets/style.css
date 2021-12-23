@@ -1,0 +1,3481 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
+body {
+  background-color: #5765D6;
+}
+.first {
+  width: 100%;
+  height: 2434px;
+  position: relative;
+  margin-top: 0;
+}
+
+/* фрагменты руки */
+
+#hand1 {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 140px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 1.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand2 {
+  position: absolute;
+  margin-top: 59px;
+  margin-left: 140px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 1.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand3 {
+  position: absolute;
+  margin-top: 118px;
+  margin-left: 140px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 2.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand4 {
+  position: absolute;
+  margin-top: 177px;
+  margin-left: 140px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 2.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand5 {
+  position: absolute;
+  margin-top: 235px;
+  margin-left: 140px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 2.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand6 {
+  position: absolute;
+  margin-top: 294px;
+  margin-left: 140px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand7 {
+  position: absolute;
+  margin-top: 353px;
+  margin-left: 140px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 3.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand8 {
+  position: absolute;
+  margin-top: 412px;
+  margin-left: 140px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 3.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand9 {
+  position: absolute;
+  margin-top: 471px;
+  margin-left: 140px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 3.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand10 {
+  position: absolute;
+  margin-top: 530px;
+  margin-left: 140px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 4.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand11 {
+  position: absolute;
+  margin-top: 585px;
+  margin-left: 140px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 4.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand12 {
+  position: absolute;
+  margin-top: 585px;
+  margin-left: 199px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 4.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand13 {
+  position: absolute;
+  margin-top: 585px;
+  margin-left: 258px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 5.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand14 {
+  position: absolute;
+  margin-top: 585px;
+  margin-left: 317px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 5.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand15 {
+  position: absolute;
+  margin-top: 585px;
+  margin-left: 376px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 5.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand16 {
+  position: absolute;
+  margin-top: 585px;
+  margin-left: 435px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand17 {
+  position: absolute;
+  margin-top: 585px;
+  margin-left: 490px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 6.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand18 {
+  position: absolute;
+  margin-top: 526px;
+  margin-left: 490px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 6.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand19 {
+  position: absolute;
+  margin-top: 467px;
+  margin-left: 490px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 6.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand20 {
+  position: absolute;
+  margin-top: 413px;
+  margin-left: 490px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 7.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand21 {
+  position: absolute;
+  margin-top: 413px;
+  margin-left: 549px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 7.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand22 {
+  position: absolute;
+  margin-top: 413px;
+  margin-left: 608px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 7.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand23 {
+  position: absolute;
+  margin-top: 413px;
+  margin-left: 667px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 8.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand24 {
+  position: absolute;
+  margin-top: 413px;
+  margin-left: 726px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 8.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand25 {
+  position: absolute;
+  margin-top: 413px;
+  margin-left: 784px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 8.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand26 {
+  position: absolute;
+  margin-top: 413px;
+  margin-left: 843px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand27 {
+  position: absolute;
+  margin-top: 413px;
+  margin-left: 855px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 9.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand28 {
+  position: absolute;
+  margin-top: 472px;
+  margin-left: 855px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 9.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand29 {
+  position: absolute;
+  margin-top: 496px;
+  margin-left: 855px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 9.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand30 {
+  position: absolute;
+  margin-top: 496px;
+  margin-left: 914px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 10.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand31 {
+  position: absolute;
+  margin-top: 496px;
+  margin-left: 973px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 10.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand32 {
+  position: absolute;
+  margin-top: 496px;
+  margin-left: 1032px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 10.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand33 {
+  position: absolute;
+  margin-top: 496px;
+  margin-left: 1091px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 11.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand34 {
+  position: absolute;
+  margin-top: 496px;
+  margin-left: 1150px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 11.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand35 {
+  position: absolute;
+  margin-top: 496px;
+  margin-left: 1209px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 11.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand36 {
+  position: absolute;
+  margin-top: 496px;
+  margin-left: 1215px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 12s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand37 {
+  position: absolute;
+  margin-top: 555px;
+  margin-left: 1215px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 12.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand38 {
+  position: absolute;
+  margin-top: 614px;
+  margin-left: 1215px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 12.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand39 {
+  position: absolute;
+  margin-top: 673px;
+  margin-left: 1215px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 12.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand40 {
+  position: absolute;
+  margin-top: 718px;
+  margin-left: 1215px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 13.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand41 {
+  position: absolute;
+  margin-top: 718px;
+  margin-left: 1156px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 13.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand42 {
+  position: absolute;
+  margin-top: 718px;
+  margin-left: 1097px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 13.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand43 {
+  position: absolute;
+  margin-top: 718px;
+  margin-left: 1038px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 14.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand44  {
+  position: absolute;
+  margin-top: 718px;
+  margin-left: 979px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 14.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand45  {
+  position: absolute;
+  margin-top: 718px;
+  margin-left: 973px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 14.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand46  {
+  position: absolute;
+  margin-top: 777px;
+  margin-left: 973px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 15s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand47  {
+  position: absolute;
+  margin-top: 836px;
+  margin-left: 973px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 15.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand48  {
+  position: absolute;
+  margin-top: 895px;
+  margin-left: 973px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 15.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand49  {
+  position: absolute;
+  margin-top: 940px;
+  margin-left: 973px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 15.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand50  {
+  position: absolute;
+  margin-top: 940px;
+  margin-left: 914px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 16.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand51  {
+  position: absolute;
+  margin-top: 940px;
+  margin-left: 855px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 16.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand52  {
+  position: absolute;
+  margin-top: 940px;
+  margin-left: 825px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 16.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand53  {
+  position: absolute;
+  margin-top: 999px;
+  margin-left: 825px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 17.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand54  {
+  position: absolute;
+  margin-top: 1058px;
+  margin-left: 825px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 17.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand55  {
+  position: absolute;
+  margin-top: 1067px;
+  margin-left: 825px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 17.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand56  {
+  position: absolute;
+  margin-top: 1067px;
+  margin-left: 884px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 18s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand57  {
+  position: absolute;
+  margin-top: 1067px;
+  margin-left: 943px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 18.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand58  {
+  position: absolute;
+  margin-top: 1067px;
+  margin-left: 1002px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 18.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand59  {
+  position: absolute;
+  margin-top: 1067px;
+  margin-left: 1061px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 18.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand60  {
+  position: absolute;
+  margin-top: 1067px;
+  margin-left: 1120px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 19.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand61  {
+  position: absolute;
+  margin-top: 1067px;
+  margin-left: 1179px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 19.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand62  {
+  position: absolute;
+  margin-top: 1067px;
+  margin-left: 1238px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 19.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand63  {
+  position: absolute;
+  margin-top: 1067px;
+  margin-left: 1267px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 20.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand64  {
+  position: absolute;
+  margin-top: 1126px;
+  margin-left: 1267px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 20.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand65  {
+  position: absolute;
+  margin-top: 1185px;
+  margin-left: 1267px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 20.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand66  {
+  position: absolute;
+  margin-top: 1209px;
+  margin-left: 1267px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 21s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand67  {
+  position: absolute;
+  margin-top: 1209px;
+  margin-left: 1208px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 21.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand68  {
+  position: absolute;
+  margin-top: 1209px;
+  margin-left: 1149px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 21.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand69  {
+  position: absolute;
+  margin-top: 1209px;
+  margin-left: 1090px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 21.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand70  {
+  position: absolute;
+  margin-top: 1209px;
+  margin-left: 1031px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 22.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand71  {
+  position: absolute;
+  margin-top: 1209px;
+  margin-left: 972px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 22.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand72  {
+  position: absolute;
+  margin-top: 1209px;
+  margin-left: 913px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 22.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand73  {
+  position: absolute;
+  margin-top: 1209px;
+  margin-left: 854px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 23.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand74  {
+  position: absolute;
+  margin-top: 1209px;
+  margin-left: 795px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 23.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand75  {
+  position: absolute;
+  margin-top: 1209px;
+  margin-left: 736px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 23.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand76  {
+  position: absolute;
+  margin-top: 1209px;
+  margin-left: 677px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 24s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand77  {
+  position: absolute;
+  margin-top: 1209px;
+  margin-left: 618px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 24.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand78  {
+  position: absolute;
+  margin-top: 1209px;
+  margin-left: 559px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 24.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand79  {
+  position: absolute;
+  margin-top: 1209px;
+  margin-left: 551px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 24.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand80  {
+  position: absolute;
+  margin-top: 1150px;
+  margin-left: 551px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 25.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand81  {
+  position: absolute;
+  margin-top: 1093px;
+  margin-left: 551px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 25.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand82  {
+  position: absolute;
+  margin-top: 1034px;
+  margin-left: 551px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 25.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand83  {
+  position: absolute;
+  margin-top: 998px;
+  margin-left: 551px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 26.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand84  {
+  position: absolute;
+  margin-top: 998px;
+  margin-left: 492px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 26.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand85  {
+  position: absolute;
+  margin-top: 998px;
+  margin-left: 433px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 26.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand86  {
+  position: absolute;
+  margin-top: 998px;
+  margin-left: 374px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 27s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand87  {
+  position: absolute;
+  margin-top: 998px;
+  margin-left: 315px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 27.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand88  {
+  position: absolute;
+  margin-top: 998px;
+  margin-left: 256px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 27.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand89  {
+  position: absolute;
+  margin-top: 998px;
+  margin-left: 197px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 27.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand90  {
+  position: absolute;
+  margin-top: 998px;
+  margin-left: 138px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 28.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand91  {
+  position: absolute;
+  margin-top: 998px;
+  margin-left: 77px;
+  width: 61px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 28.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand92  {
+  position: absolute;
+  margin-top: 1057px;
+  margin-left: 77px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 28.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand93  {
+  position: absolute;
+  margin-top: 1116px;
+  margin-left: 77px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 29.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand94  {
+  position: absolute;
+  margin-top: 1175px;
+  margin-left: 77px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 29.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand95  {
+  position: absolute;
+  margin-top: 1234px;
+  margin-left: 77px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 29.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand96  {
+  position: absolute;
+  margin-top: 1293px;
+  margin-left: 77px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 30s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand97  {
+  position: absolute;
+  margin-top: 1352px;
+  margin-left: 77px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 30.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand98  {
+  position: absolute;
+  margin-top: 1411px;
+  margin-left: 77px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 30.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand99  {
+  position: absolute;
+  margin-top: 1470px;
+  margin-left: 77px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 30.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand100  {
+  position: absolute;
+  margin-top: 1523px;
+  margin-left: 77px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 31.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand101  {
+  position: absolute;
+  margin-top: 1523px;
+  margin-left: 136px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 31.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand102  {
+  position: absolute;
+  margin-top: 1523px;
+  margin-left: 195px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 31.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand103  {
+  position: absolute;
+  margin-top: 1523px;
+  margin-left: 254px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 32.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand104  {
+  position: absolute;
+  margin-top: 1464px;
+  margin-left: 254px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 32.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand105  {
+  position: absolute;
+  margin-top: 1411px;
+  margin-left: 254px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 32.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand106  {
+  position: absolute;
+  margin-top: 1411px;
+  margin-left: 313px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 33s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand107  {
+  position: absolute;
+  margin-top: 1411px;
+  margin-left: 372px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 33.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand108  {
+  position: absolute;
+  margin-top: 1411px;
+  margin-left: 391px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 33.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand109  {
+  position: absolute;
+  margin-top: 1470px;
+  margin-left: 391px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 33.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand110  {
+  position: absolute;
+  margin-top: 1529px;
+  margin-left: 391px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 34.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand111  {
+  position: absolute;
+  margin-top: 1588px;
+  margin-left: 391px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 34.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand112  {
+  position: absolute;
+  margin-top: 1598px;
+  margin-left: 391px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 34.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand113  {
+  position: absolute;
+  margin-top: 1598px;
+  margin-left: 450px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 35.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand114  {
+  position: absolute;
+  margin-top: 1598px;
+  margin-left: 509px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 35.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand115  {
+  position: absolute;
+  margin-top: 1598px;
+  margin-left: 568px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 35.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand116  {
+  position: absolute;
+  margin-top: 1598px;
+  margin-left: 586px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 36s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand117  {
+  position: absolute;
+  margin-top: 1539px;
+  margin-left: 586px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 36.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand118  {
+  position: absolute;
+  margin-top: 1480px;
+  margin-left: 586px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 36.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand119  {
+  position: absolute;
+  margin-top: 1468px;
+  margin-left: 586px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 36.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand120  {
+  position: absolute;
+  margin-top: 1468px;
+  margin-left: 645px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 37.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand121  {
+  position: absolute;
+  margin-top: 1468px;
+  margin-left: 704px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 37.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand122  {
+  position: absolute;
+  margin-top: 1468px;
+  margin-left: 763px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 37.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand123  {
+  position: absolute;
+  margin-top: 1468px;
+  margin-left: 780px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 38.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand124  {
+  position: absolute;
+  margin-top: 1527px;
+  margin-left: 780px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 38.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand125  {
+  position: absolute;
+  margin-top: 1585px;
+  margin-left: 780px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 38.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand126  {
+  position: absolute;
+  margin-top: 1644px;
+  margin-left: 780px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 39s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand127  {
+  position: absolute;
+  margin-top: 1652px;
+  margin-left: 780px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 39.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand128  {
+  position: absolute;
+  margin-top: 1652px;
+  margin-left: 839px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 39.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand129  {
+  position: absolute;
+  margin-top: 1652px;
+  margin-left: 898px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 39.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand130  {
+  position: absolute;
+  margin-top: 1652px;
+  margin-left: 957px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 40.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand131  {
+  position: absolute;
+  margin-top: 1652px;
+  margin-left: 977px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 40.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand132  {
+  position: absolute;
+  margin-top: 1593px;
+  margin-left: 977px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 40.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand133  {
+  position: absolute;
+  margin-top: 1535px;
+  margin-left: 977px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 41.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand134  {
+  position: absolute;
+  margin-top: 1476px;
+  margin-left: 977px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 41.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand135  {
+  position: absolute;
+  margin-top: 1417px;
+  margin-left: 977px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 41.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand136  {
+  position: absolute;
+  margin-top: 1396px;
+  margin-left: 977px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 42s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand137  {
+  position: absolute;
+  margin-top: 1396px;
+  margin-left: 1036px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 42.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand138  {
+  position: absolute;
+  margin-top: 1396px;
+  margin-left: 1095px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 42.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand139  {
+  position: absolute;
+  margin-top: 1396px;
+  margin-left: 1154px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 42.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand140  {
+  position: absolute;
+  margin-top: 1396px;
+  margin-left: 1172px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 43.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand141  {
+  position: absolute;
+  margin-top: 1455px;
+  margin-left: 1172px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 43.5;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand142  {
+  position: absolute;
+  margin-top: 1514px;
+  margin-left: 1172px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 43.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand143  {
+  position: absolute;
+  margin-top: 1573px;
+  margin-left: 1172px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 44.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand144  {
+  position: absolute;
+  margin-top: 1632px;
+  margin-left: 1172px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 44.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand145  {
+  position: absolute;
+  margin-top: 1691px;
+  margin-left: 1172px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 44.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand146  {
+  position: absolute;
+  margin-top: 1750px;
+  margin-left: 1172px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 45s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand147  {
+  position: absolute;
+  margin-top: 1809px;
+  margin-left: 1172px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 45.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand148  {
+  position: absolute;
+  margin-top: 1868px;
+  margin-left: 1172px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 45.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand149  {
+  position: absolute;
+  margin-top: 1927px;
+  margin-left: 1172px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 45.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand150  {
+  position: absolute;
+  margin-top: 1980px;
+  margin-left: 1172px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 46.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand151  {
+  position: absolute;
+  margin-top: 1980px;
+  margin-left: 1113px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 46.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand152  {
+  position: absolute;
+  margin-top: 1980px;
+  margin-left: 1054px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 46.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand153  {
+  position: absolute;
+  margin-top: 1980px;
+  margin-left: 995px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 47.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand154  {
+  position: absolute;
+  margin-top: 1980px;
+  margin-left: 936px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 47.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand155  {
+  position: absolute;
+  margin-top: 1980px;
+  margin-left: 877px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 47.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand156  {
+  position: absolute;
+  margin-top: 1980px;
+  margin-left: 818px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 48s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand157  {
+  position: absolute;
+  margin-top: 1980px;
+  margin-left: 759px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 48.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand158  {
+  position: absolute;
+  margin-top: 1980px;
+  margin-left: 700px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 48.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand159  {
+  position: absolute;
+  margin-top: 1980px;
+  margin-left: 641px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 48.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand160  {
+  position: absolute;
+  margin-top: 1980px;
+  margin-left: 582px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 49.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand161  {
+  position: absolute;
+  margin-top: 1980px;
+  margin-left: 556px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 49.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand162  {
+  position: absolute;
+  margin-top: 2039px;
+  margin-left: 556px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 49.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand163  {
+  position: absolute;
+  margin-top: 2098px;
+  margin-left: 556px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 50.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand164  {
+  position: absolute;
+  margin-top: 2157px;
+  margin-left: 556px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 50.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand165  {
+  position: absolute;
+  margin-top: 2216px;
+  margin-left: 556px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 50.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand166  {
+  position: absolute;
+  margin-top: 2242px;
+  margin-left: 556px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 51s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand167  {
+  position: absolute;
+  margin-top: 2242px;
+  margin-left: 615px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 51.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand168  {
+  position: absolute;
+  margin-top: 2242px;
+  margin-left: 674px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 51.6s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand169  {
+  position: absolute;
+  margin-top: 2242px;
+  margin-left: 687px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 51.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand170  {
+  position: absolute;
+  margin-top: 2301px;
+  margin-left: 687px;
+  width: 59px;
+  height: 59px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 52.2s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand171  {
+  position: absolute;
+  margin-top: 2360px;
+  margin-left: 687px;
+  width: 59px;
+  height: 74px;
+  background: #FAB5FF;
+  z-index: 2;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 52.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+
+/* новогодний декор */
+
+#image1 {
+  position: absolute;
+  margin-left: 264px;
+  margin-top: -10px;
+}
+#image2 {
+  position: absolute;
+  weight: 392px;
+  margin-left: 1124px;
+  margin-top: -10px;
+}
+#image3 {
+  position: absolute;
+  margin-left: 922px;
+  margin-top: 257px;
+}
+#image4 {
+  position: absolute;
+  margin-left: 418px;
+  margin-top: 396px;
+}
+#image5 {
+  position: absolute;
+  margin-left: 216px;
+  margin-top: 367px;
+}
+#image6 {
+  position: absolute;
+  margin-left: 9.95px;
+  margin-top: 22px;
+}
+#image7 {
+  position: absolute;
+  margin-left: 714px;
+  margin-top: 557px;
+}
+#image8 {
+  position: absolute;
+  margin-left: 1355px;
+  margin-top: 722px;
+}
+#image9 {
+  position: absolute;
+  margin-left: 580px;
+  margin-top: 834px;
+  z-index: 2;
+}
+#image10 {
+  position: absolute;
+  margin-left: 656px;
+  margin-top: 1051px;
+}
+#image11 {
+  position: absolute;
+  margin-left: 160px;
+  margin-top: 1089px;
+}
+#image12 {
+  position: absolute;
+  margin-left: 1297px;
+  margin-top: 1330px;
+}
+#image13 {
+  position: absolute;
+  margin-left: 459px;
+  margin-top: 1436px;
+}
+#image14 {
+  position: absolute;
+  margin-left: 664px;
+  margin-top: 1561px;
+}
+#image15 {
+  position: absolute;
+  margin-left: 1087px;
+  margin-top: 1571px;
+}
+#image16 {
+  position: absolute;
+  margin-left: 163px;
+  margin-top: 1633px;
+}
+#image17 {
+  position: absolute;
+  margin-left: 243px;
+  margin-top: 1878px;
+}
+#image18 {
+  position: absolute;
+  margin-left: 662px;
+  margin-top: 2075px;
+}
+#image19 {
+  position: absolute;
+  margin-left: 69px;
+  margin-top: 1791px;
+  z-index: 2;
+}
+#image20 {
+  position: absolute;
+  margin-left: 1317px;
+  margin-top: 1869px;
+}
+
+#picture4 {
+  position: absolute;
+  margin-top: 550px;
+}
+
+/* текст */
+
+#head1 {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 150px;
+}
+#text1 {
+  position: absolute;
+  margin-left: 535px;
+  margin-top: 279px;
+}
+#text2 {
+  position: absolute;
+  margin-left: 898px;
+  margin-top: 607px;
+}
+#text3 {
+  position: absolute;
+  margin-left: 249px;
+  margin-top: 722px;
+}
+#text4 {
+  position: absolute;
+  margin-left: 570px;
+  margin-top: 1333px;
+}
+#text5 {
+  position: absolute;
+  margin-left: 822px;
+  margin-top: 2098px;
+}
+#text6 {
+  position: absolute;
+  margin-top: 1100px;
+  margin-left: 400px;
+}
+#text7 {
+  position: absolute;
+  margin-top: 1150px;
+  margin-left: 315px;
+}
+h1 {
+  font-size: 140px;
+  font-family: Teko;
+  color: white;
+}
+h2 {
+  font-size: 24px;
+  font-family: Overpass;
+  color: white;
+  line-height: 1.25;
+}
+h3 {
+  font-size: 36px;
+  font-family: Overpass;
+  color: white;
+  line-height: 1.25;
+}
+h4 {
+  font-size: 120px;
+  font-family: Teko;
+  color: #FACFFE;
+}
+
+.footer {
+  position: relative;
+  width:100%;
+  height: 120px;
+}
+
+#left {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#center {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+#right {
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: 20px;
+}
+
+/* капельки */
+#pink1 {
+  position: absolute;
+  margin-top: 107px;
+  margin-left: 148px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 1.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#pink2 {
+  position: absolute;
+  margin-top: 336px;
+  margin-left: 148px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#pink3 {
+  position: absolute;
+  margin-top: 575px;
+  margin-left: 148px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#pink4 {
+  position: absolute;
+  margin-top: 581px;
+  margin-left: 382px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 5.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#pink5 {
+  position: absolute;
+  margin-top: 414px;
+  margin-left: 505px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 6.59s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#pink6 {
+  position: absolute;
+  margin-top: 413px;
+  margin-left: 762px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#pink7 {
+  position: absolute;
+  margin-top: 494px;
+  margin-left: 964px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 10s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#bigpink {
+  position: absolute;
+  margin-top: 482px;
+  margin-left: 1204px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 11.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#yellow1 {
+  position: absolute;
+  margin-top: 716px;
+  margin-left: 1227px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 13s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#yellow2 {
+  position: absolute;
+  margin-top:722px;
+  margin-left: 989px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 14s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#yellow3 {
+  position: absolute;
+  margin-top: 930px;
+  margin-left: 990px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 15.3s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#yellow4 {
+  position: absolute;
+  margin-top: 1063px;
+  margin-left: 836px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 16.9s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#yellow5 {
+  position: absolute;
+  margin-top: 1063px;
+  margin-left: 1101px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 18.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#yellow6 {
+  position: absolute;
+  margin-top: 1138px;
+  margin-left: 1279px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 20s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#yellow7 {
+  position: absolute;
+  margin-top: 1206px;
+  margin-left: 1102px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 21s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#yellow8 {
+  position: absolute;
+  margin-top: 1206px;
+  margin-left: 845px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 22s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#yellow9 {
+  position: absolute;
+  margin-top: 1198px;
+  margin-left: 566px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 23s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#yellow10 {
+  position: absolute;
+  margin-top: 1003px;
+  margin-left: 566px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 24s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#yellow11 {
+  position: absolute;
+  margin-top: 997px;
+  margin-left: 325px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 25.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#bigyellow {
+  position: absolute;
+  margin-top: 993px;
+  margin-left: 67px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 27s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#green1 {
+  position: absolute;
+  margin-top: 1232px;
+  margin-left: 89px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 29s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#green2 {
+  position: absolute;
+  margin-top: 1512px;
+  margin-left: 90px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 31s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#green3 {
+  position: absolute;
+  margin-top: 1417px;
+  margin-left: 267px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 32.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#green4 {
+  position: absolute;
+  margin-top: 1597px;
+  margin-left: 402px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 34s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#green5 {
+  position: absolute;
+  margin-top: 1597px;
+  margin-left: 594px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 35.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#green6 {
+  position: absolute;
+  margin-top: 1468px;
+  margin-left: 693px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 37s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#green7 {
+  position: absolute;
+  margin-top: 1651px;
+  margin-left: 791px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 38.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#green8 {
+  position: absolute;
+  margin-top: 1651px;
+  margin-left: 991px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 40s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#green9 {
+  position: absolute;
+  margin-top: 1402px;
+  margin-left: 992px;
+  z-index: 2;animation-name: drop;
+  animation-delay: 41.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#biggreen {
+  position: absolute;
+  margin-top: 1393px;
+  margin-left: 1160px;
+  z-index: 2;
+  z-index: 2;animation-name: drop;
+  animation-delay: 43s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#blue1 {
+  position: absolute;
+  margin-top: 1579px;
+  margin-left: 1184px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 44s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#blue2 {
+  position: absolute;
+  margin-top: 1752px;
+  margin-left: 1186px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 45s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#blue3 {
+  position: absolute;
+  margin-top: 1970px;
+  margin-left: 1184px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 46s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#blue4 {
+  position: absolute;
+  margin-top: 1970px;
+  margin-left: 946px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 47s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#blue5 {
+  position: absolute;
+  margin-top: 1970px;
+  margin-left: 715px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 48.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#blue6 {
+  position: absolute;
+  margin-top: 2113px;
+  margin-left: 565px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 50s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#bigblue {
+  position: absolute;
+  margin-top: 2335px;
+  margin-left: 675px;
+  z-index: 2;
+  animation-name: drop;
+  animation-delay: 51.5s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+
+/* лабиринт */
+
+.rectangle1 {
+  position: absolute;
+  margin-top: 0;
+  margin-left: 124px;
+  width: 93px;
+  height: 849px;
+  background: #8E99F2;
+}
+.rectangle2 {
+  position: absolute;
+  margin-top: 573px;
+  margin-left: 217px;
+  width: 350px;
+  height: 84px;
+  background: #8E99F2;
+}
+.rectangle3 {
+  position: absolute;
+  margin-top: 849px;
+  margin-left: 124px;
+  width: 686px;
+  height: 78px;
+  background: #8E99F2;
+}
+.rectangle4 {
+  position: absolute;
+  margin-top: 396px;
+  margin-left: 474px;
+  width: 93px;
+  height: 177px;
+  background: #8E99F2;
+}
+.rectangle5 {
+  position: absolute;
+  margin-top: 396px;
+  margin-left: 566px;
+  width: 356px;
+  height: 91px;
+  background: #8E99F2;
+}
+.rectangle6 {
+  position: absolute;
+  margin-top: 487px;
+  margin-left: 638px;
+  width: 76px;
+  height: 217px;
+  background: #8E99F2;
+}
+.rectangle7 {
+  position: absolute;
+  margin-top: 486px;
+  margin-left: 844px;
+  width: 360px;
+  height: 80px;
+  background: #8E99F2;
+}
+.rectangle8 {
+  position: absolute;
+  margin-top: 273px;
+  margin-left: 1203px;
+  width: 83px;
+  height: 519px;
+  background: #8E99F2;
+}
+.rectangle9 {
+  position: absolute;
+  margin-top: 704px;
+  margin-left: 958px;
+  width: 245px;
+  height: 88px;
+  background: #8E99F2;
+}
+.rectangle10 {
+  position: absolute;
+  margin-top: 792px;
+  margin-left: 958px;
+  width: 91px;
+  height: 135px;
+  background: #8E99F2;
+}
+.rectangle11 {
+  position: absolute;
+  margin-top: 704px;
+  margin-left: 647px;
+  width: 244px;
+  height: 72px;
+  background: #8E99F2;
+}
+.rectangle12 {
+  position: absolute;
+  margin-top: 775px;
+  margin-left: 810px;
+  width: 81px;
+  height: 152px;
+  background: #8E99F2;
+}
+.rectangle13 {
+  position: absolute;
+  margin-top: 927px;
+  margin-left: 899px;
+  width: 611px;
+  height: 86px;
+  background: #8E99F2;
+}
+.rectangle14 {
+  position: absolute;
+  margin-top: 927px;
+  margin-left: 810px;
+  width: 89px;
+  height: 211px;
+  background: #8E99F2;
+}
+.rectangle15 {
+  position: absolute;
+  margin-top: 1057px;
+  margin-left: 899px;
+  width: 441px;
+  height: 81px;
+  background: #8E99F2;
+}
+.rectangle16 {
+  position: absolute;
+  margin-top: 1138px;
+  margin-left: 1253px;
+  width: 87px;
+  height: 141px;
+  background: #8E99F2;
+}
+.rectangle17 {
+  position: absolute;
+  margin-top: 273px;
+  margin-left: 1286px;
+  width: 225px;
+  height: 65px;
+  background: #8E99F2;
+}
+.rectangle18 {
+  position: absolute;
+  margin-top: 704px;
+  margin-left: 580px;
+  width: 67px;
+  height: 145px;
+  background: #8E99F2;
+}
+.rectangle19 {
+  position: absolute;
+  margin-top: 1198px;
+  margin-left: 532px;
+  width: 721px;
+  height: 81px;
+  background: #8E99F2;
+}
+.rectangle20 {
+  position: absolute;
+  margin-top: 987px;
+  margin-left: 532px;
+  width: 96px;
+  height: 211px;
+  background: #8E99F2;
+}
+.rectangle21 {
+  position: absolute;
+  margin-top: 987px;
+  margin-left: 65px;
+  width: 467px;
+  height: 82px;
+  background: #8E99F2;
+}
+.rectangle22 {
+  position: absolute;
+  margin-top: 1069px;
+  margin-left: 65px;
+  width: 83px;
+  height: 524px;
+  background: #8E99F2;
+}
+.rectangle23 {
+  position: absolute;
+  margin-top: 1513px;
+  margin-left: 148px;
+  width: 177px;
+  height: 80px;
+  background: #8E99F2;
+}
+.rectangle24 {
+  position: absolute;
+  margin-top: 1402px;
+  margin-left: 244px;
+  width: 81px;
+  height: 111px;
+  background: #8E99F2;
+}
+.rectangle25 {
+  position: absolute;
+  margin-top: 1402px;
+  margin-left: 325px;
+  width: 132px;
+  height: 78px;
+  background: #8E99F2;
+}
+.rectangle26 {
+  position: absolute;
+  margin-top: 1480px;
+  margin-left: 382px;
+  width: 75px;
+  height: 186px;
+  background: #8E99F2;
+}
+.rectangle27 {
+  position: absolute;
+  margin-top: 1589px;
+  margin-left: 457px;
+  width: 119px;
+  height: 77px;
+  background: #8E99F2;
+}
+.rectangle28 {
+  position: absolute;
+  margin-top: 1542px;
+  margin-left: 576px;
+  width: 79px;
+  height: 309px;
+  background: #8E99F2;
+}
+.rectangle29 {
+  position: absolute;
+  margin-top: 1780px;
+  margin-left: 65px;
+  width: 511px;
+  height: 71px;
+  background: #8E99F2;
+}
+.rectangle30 {
+  position: absolute;
+  margin-top: 1851px;
+  margin-left: 65px;
+  width: 83px;
+  height: 230px;
+  background: #8E99F2;
+}
+.rectangle31 {
+  position: absolute;
+  margin-top: 2081px;
+  margin-left: 65px;
+  width: 341px;
+  height: 82px;
+  background: #8E99F2;
+}
+.rectangle32 {
+  position: absolute;
+  margin-top: 2163px;
+  margin-left: 325px;
+  width: 81px;
+  height: 205px;
+  background: #8E99F2;
+}
+.rectangle33 {
+  position: absolute;
+  margin-top: 2282px;
+  margin-left: 0px;
+  width: 325px;
+  height: 86px;
+  background: #8E99F2;
+}
+.rectangle34 {
+  position: absolute;
+  margin-top: 1453px;
+  margin-left: 576px;
+  width: 278px;
+  height: 89px;
+  background: #8E99F2;
+}
+.rectangle35 {
+  position: absolute;
+  margin-top: 1542px;
+  margin-left: 766px;
+  width: 88px;
+  height: 182px;
+  background: #8E99F2;
+}
+.rectangle36 {
+  position: absolute;
+  margin-top: 1639px;
+  margin-left: 854px;
+  width: 196px;
+  height: 85px;
+  background: #8E99F2;
+}
+.rectangle37 {
+  position: absolute;
+  margin-top: 1471px;
+  margin-left: 964px;
+  width: 86px;
+  height: 168px;
+  background: #8E99F2;
+}
+.rectangle38 {
+  position: absolute;
+  margin-top: 1381px;
+  margin-left: 964px;
+  width: 289px;
+  height: 90px;
+  background: #8E99F2;
+}
+.rectangle39 {
+  position: absolute;
+  margin-top: 1471px;
+  margin-left: 1151px;
+  width: 102px;
+  height: 585px;
+  background: #8E99F2;
+}
+.rectangle40 {
+  position: absolute;
+  margin-top: 1771px;
+  margin-left: 766px;
+  width: 385px;
+  height: 80px;
+  background: #8E99F2;
+}
+.rectangle41 {
+  position: absolute;
+  margin-top: 1851px;
+  margin-left: 766px;
+  width: 88px;
+  height: 111px;
+  background: #8E99F2;
+}
+.rectangle42 {
+  position: absolute;
+  margin-top: 1963px;
+  margin-left: 854px;
+  width: 297px;
+  height: 93px;
+  background: #8E99F2;
+}
+.rectangle43 {
+  position: absolute;
+  margin-top: 1962px;
+  margin-left: 535px;
+  width: 319px;
+  height: 94px;
+  background: #8E99F2;
+}
+.rectangle44 {
+  position: absolute;
+  margin-top: 2056px;
+  margin-left: 535px;
+  width: 102px;
+  height: 166px;
+  background: #8E99F2;
+}
+.rectangle45 {
+  position: absolute;
+  margin-top: 2219px;
+  margin-left: 535px;
+  width: 865px;
+  height: 105px;
+  background: #8E99F2;
+}
+.rectangle46 {
+  position: absolute;
+  margin-top: 2324px;
+  margin-left: 637px;
+  width: 159px;
+  height: 110px;
+  background: #8E99F2;
+}
+.rectangle47 {
+  position: absolute;
+  margin-top: 1861px;
+  margin-left: 1310px;
+  width: 90px;
+  height: 358px;
+  background: #8E99F2;
+}
+
+.second {
+  position: relative;
+  width: 100%;
+  height: 1750px;
+  background-color: #8E99F2;
+}
+
+/* картинки 2 часть */
+
+#picture1 {
+  position: absolute;
+  margin-top: -20;
+  margin-left: 803px;
+}
+#picture2 {
+  position: absolute;
+  margin-top: -40;
+  margin-left: -20px;
+}
+#picture3 {
+  position: absolute;
+  padding-top: 240px;
+  margin-left: 480px;
+}
+#picture5 {
+  position: absolute;
+  margin-top: 1350px;
+  margin-left: 30px;
+}
+
+/* фрагменты руки 2 часть */
+
+}
+#hand172  {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 687px;
+  width: 59px;
+  height: 44px;
+  background: #FAB5FF;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 52.8s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand173  {
+  position: absolute;
+  margin-top: 44px;
+  margin-left: 687px;
+  width: 59px;
+  height: 44px;
+  background: #FAB5FF;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 53.1s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand174  {
+  position: absolute;
+  margin-top: 88px;
+  margin-left: 687px;
+  width: 59px;
+  height: 44px;
+  background: #FAB5FF;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 53.4s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand175  {
+  position: absolute;
+  margin-top: 132px;
+  margin-left: 687px;
+  width: 59px;
+  height: 44px;
+  background: #FAB5FF;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 53.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand176  {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 676px;
+  width: 11px;
+  height: 25px;
+  background: #FAB5FF;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 53.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+#hand177  {
+  position: absolute;
+  margin-top: 176px;
+  margin-left: 694px;
+  width: 20px;
+  height: 60px;
+  background: #FAB5FF;
+  opacity: 0;
+  animation-name: hand;
+  animation-delay: 53.7s;
+  animation-duration: 0,3s;
+  animation-fill-mode: forwards;
+}
+
+/* анимация */
+
+@keyframes hand {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes drop {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
